@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Química</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/stiloQuimica.css?=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+        
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../recursos/img/Quimica1.jpg" width="60" height="auto" class="img_nav">
+                <b>Química</b>
+            </a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra lateral de navegación -->
+            <div class="col-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action" data-target="materia">Materia</a>
+                    <a href="#" class="list-group-item list-group-item-action" data-target="tabla-periodica">Tabla Periódica</a>
+                    <a href="#" class="list-group-item list-group-item-action" data-target="configuracion-electronica">Configuración Electrónica</a>
+                    <a href="#" class="list-group-item list-group-item-action" data-target="enlaces-quimicos">Enlaces Químicos</a>
+                    <a href="#" class="list-group-item list-group-item-action" data-target="nomenclatura-inorganica">Nomenclatura Inorgánica</a>
+                    <a href="#" class="list-group-item list-group-item-action" data-target="oxianiones">Oxianiones</a>
+                </div>
+            </div>
+
+            <!-- Contenido de la página -->
+            <div class="col-9">
+                <div id="materia" class="content-section">
+                    <h1>Materia</h1>
+                    <p>La materia es cualquier cosa que tiene masa y ocupa espacio. Está compuesta por átomos y moléculas y puede existir en diferentes estados.</p>
+
+
+                    <p><b>Tipos de Estados: </b></p>
+                    <ul>
+                        <li><b>Sólido:</b> Tiene una forma definida y un volumen fijo.</li>
+                        <img src="../Img Quimica/materia/Solido.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+
+                        <li><b>Líquido:</b> Tiene un volumen fijo pero toma la forma del recipiente que lo contiene.</li>
+                        <img src="../Img Quimica/materia/lìquido.PNG" alt="Descripción de la imagen" width="324"
+                        height="120">
+                        <li><b>Gaseoso:</b> No tiene forma ni volumen fijo, se expande para llenar el espacio disponible.</li>
+                        <img src="../Img Quimica/materia/gaseoso.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                        <li><b>Plasma:</b> Un estado ionizado de la materia, encontrado comúnmente en el sol y otros cuerpos celestes.</li>
+                        <img src="../Img Quimica/materia/plasma.png" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+                    <p><b>Las propiedades de la materia se dividen en:</b></p>
+                    <ul>
+                        <li><b>Propiedades Físicas:</b> Se pueden medir sin cambiar la identidad de la sustancia, como el color, el punto de ebullición y la densidad.</li>
+                        <img src="../Img Quimica/materia/propiedad_fisica.webp" alt="Descripción de la imagen" width="324"
+                        height="120">
+                        <li><b>Propiedades Químicas:</b> Se observan durante una reacción química, como la reactividad con otros químicos, la acidez o la basicidad.</li>
+                        <img src="../Img Quimica/materia/propiedad_quimica.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+                    <p><b>Los cambios en la materia pueden ser:</b></p>
+                    <ul>
+                        <li><b>Cambios Físicos:</b> Alteran el estado o apariencia sin cambiar la composición química (ej., fusión, evaporación).</li>
+                        <img src="../Img Quimica/materia/cambios_fisicos.jpeg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                        <li><b>Cambios Químicos:</b> Alteran la composición química de la sustancia (ej., combustión, oxidación).</li>
+                        <img src="../Img Quimica/materia/cambios_quimicos.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+                    <p><b>La materia se clasifica en:</b></p>
+                    <ul>
+                        <li><b>Elementos:</b> Sustancias puras que no pueden descomponerse en otras sustancias por métodos químicos.</li>
+                        <img src="../Img Quimica/materia/elementos.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                        <li><b>Compuestos:</b> Sustancias puras formadas por la combinación química de dos o más elementos.</li>
+                        <li><b>Mezclas:</b> Combinaciones físicas de dos o más sustancias, que pueden ser homogéneas (soluciones) o heterogéneas.</li>
+                        <img src="../Img Quimica/materia/mezclas.png" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+
+                    <p><b>Video Recomendado</b></p>
+                    <iframe width="1000" height="700" src="https://www.youtube.com/embed/swcjamDFsn0" allowfullscreen></iframe>
+                    
+                </div>
+
+                <div id="tabla-periodica" class="content-section">
+                    <h1>Tabla Periódica</h1>
+                    <p>La Tabla Periódica es una herramienta fundamental en la química que organiza todos los elementos químicos conocidos de manera sistemática según sus propiedades químicas y físicas.</p>
+                   
+                    <p><b>Estructura:</b></p>
+                    <ul>
+                        <li><b>Filas (Períodos):</b> Hay 7 filas horizontales, llamadas períodos, que indican el nivel de energía de los electrones en los átomos de los elementos.</li>
+                        <li><b>Columnas (Grupos o Familias):</b>Hay 18 columnas verticales, llamadas grupos o familias, que agrupan elementos con propiedades químicas similares debido a su configuración electrónica similar.</li>
+                        </ul>
+
+                        <p><b>Categorías de Elementos:</b></p>
+                        <ul>
+                            <li><b>Metales:</b> La mayoría de los elementos son metales, ubicados a la izquierda y el centro de la tabla. Son buenos conductores de electricidad y calor.</li>
+                            <li><b>No Metales:</b> Están situados en la parte superior derecha. Son malos conductores y tienen propiedades químicas variadas.</li>    
+                            <li><b>Metaloides:</b> Tienen propiedades intermedias y están ubicados a lo largo de la línea divisoria entre metales y no metales.</li>
+                        </ul>
+
+                        <p><b>Bloques de Elementos: </b></p>
+                        <ul>
+                            <li><b>Bloque S:</b> Incluye los grupos 1 y 2, y el hidrógeno y helio.</li>
+                            <li><b>Bloque P:</b>  Incluye los grupos 13 al 18.</li>
+                            <li><b>Bloque D:</b> Incluye los elementos de transición, situados en los grupos 3 al 12.</li>
+                            <li><b>Bloque F:</b> Incluye los lantánidos y actínidos, que están separados en dos filas debajo de la tabla principal.</li>
+                        </ul>
+
+                        <p><b>Propiedades de los Elementos: </b></p>
+                        <ul>
+                            <li><b>Número Atómico:</b> El número de protones en el núcleo del átomo, que también indica el orden del elemento en la tabla.</li>
+                            <li><b>Masa Atómica:</b> El promedio ponderado de las masas de los isótopos naturales de un elemento.</li>
+                            <li><b>Símbolo Químico:</b> Una abreviatura de una o dos letras que representa el elemento (por ejemplo, O para oxígeno).</li>
+                        </ul>
+                        
+                        <br>
+
+                        <p><b>Tabla</b></p>
+                       <a href="../TABLA_PERIODICA_6to_COMPUTACION/TABLA_PERIODICA_6TO_COMPU.html">Enlace para Abrir la Tabla</a>
+                        
+                        <br>
+
+                        <p><b>Video Recomendado</b></p>
+                        <iframe width="1000" height="700" src="https://www.youtube.com/embed/guTBOvbhjSg" allowfullscreen></iframe>
+                </div>
+
+                <div id="configuracion-electronica" class="content-section">
+                    <h1>Configuración Electrónica</h1>
+                    <p>La configuración electrónica describe la distribución de electrones en los orbitales de un átomo. Es esencial para entender las propiedades químicas y el comportamiento de los elementos.</p>
+             <br>
+             
+             <img src="../Img Quimica/configuración_electronica/Configuracion-electronica.webp" alt="Descripción de la imagen" width="324"
+             height="120">
+
+             <br>
+
+                    <p><b>Principios Básicos:</b></p>
+                    <ul>
+                        <li><b>Números Cuánticos:</b> Cada electrón en un átomo se describe por cuatro números cuánticos que indican su energía, forma, orientación y espín.</li>
+                        <li><b>Número cuántico principal (n):</b> Indica el nivel de energía del electrón. Los valores posibles son 1, 2, 3, etc.</li>
+                        <li><b>Número cuántico azimutal (l):</b> Define el tipo de subnivel (s, p, d, f) y determina la forma del orbital.</li>
+                        <li><b>Número cuántico magnético (m_l):</b>  Indica la orientación del orbital en el espacio.</li>
+                        <li><b>Número cuántico de espín (m_s):</b> Representa el espín del electrón, que puede ser +1/2 o -1/2.</li>
+                        <li><b>Reglas de Aufbau:</b> Los electrones llenan los orbitales desde el de menor energía al de mayor energía. La secuencia de llenado sigue el orden de los niveles y subniveles de energía.</li>
+                        <li><b>Principio de Exclusión de Pauli:</b> En un átomo, no puede haber dos electrones con los mismos cuatro números cuánticos. En otras palabras, cada orbital puede contener hasta dos electrones, con espines opuestos.</li>
+                        <li><b>Regla de Hund:</b>  Los electrones se distribuyen en los orbitales degenerados (de igual energía) de tal manera que se maximiza el número de electrones con espines paralelos antes de emparejarse.</li>
+                  <br>
+                    </ul>
+
+                    <p><b>Configuración Electrónica de los Elementos: </b></p>
+
+                    <ul>
+                    <li><b>Determina el número atómico:</b> Es el número total de electrones en un átomo neutro.</li>
+                    <li><b>Asigna los electrones a los orbitales siguiendo el orden de energía:</b> Primero se llenan los orbitales más cercanos al núcleo.</li>
+                <br>
+                <p>Por ejemplo, la configuración electrónica del oxígeno (número atómico 8) es:
+
+                    1s² 2s² 2p⁴
+                    <br>
+                    Esto significa que hay 2 electrones en el orbital 1s, 2 electrones en el orbital 2s, y 4 electrones en el orbital 2p.</p>
+                
+                 <p><b>Diagrama de Energía de Orbitales</b></p>
+                 <p>Es útil visualizar la configuración electrónica usando diagramas de energía, como el diagrama de orbitales de Aufbau, para entender el orden de llenado de los orbitales.</p>
+               <br>
+
+               <p><b>Configuración Electrónica en la Tabla Periódica</b></p>
+               <p>La configuración electrónica también ayuda a entender la posición de los elementos en la tabla periódica y sus propiedades químicas. Los elementos en el mismo grupo tienen configuraciones electrónicas similares en su capa más externa, lo que resulta en comportamientos químicos similares.</p>
+                </ul>
+                <br>
+                <img src="../Img Quimica/configuración_electronica/configuración-electronica-de-los-elementos-2.jpg" alt="Descripción de la imagen" width="324"
+                height="120">
+                <p><b>Video Recomendado</b></p>
+                        <iframe width="1000" height="700" src="https://www.youtube.com/embed/PFgurjlMThg" allowfullscreen></iframe>
+                </div>
+                <iframe src="https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_es.html"
+                        width="800"
+                        height="600"
+                        allowfullscreen>
+                </iframe>
+
+                <div id="enlaces-quimicos" class="content-section">
+                    <h1>Enlaces Químicos</h1>
+                    <p>Los enlaces químicos son las fuerzas que mantienen unidos a los átomos en las moléculas y compuestos. Existen varios tipos de enlaces, incluidos los enlaces covalentes, iónicos y metálicos.</p>
+               
+                    <p><b>Enlaces Iónicos:</b></p>
+                    <ul>
+                        <li><b>Descripción:</b> Se producen cuando dos átomos comparten electrones. Este tipo de enlace se encuentra comúnmente entre no metales.</li>
+                        <li><b>Ejemplo:</b> Cloruro de sodio (NaCl).</li>
+
+                        
+                    <img src="../Img Quimica/enlaces quimicos/enlace_ionico.webp" alt="Descripción de la imagen" width="324"
+                    height="120">
+                    </ul>
+
+                    <p><b>Enlaces Covalentes:</b></p>
+                    <ul>
+                        <li><b>Descripción:</b> Se forman cuando un átomo dona electrones a otro, creando iones positivos y negativos que se atraen mutuamente. Este tipo de enlace ocurre típicamente entre metales y no metales.</li>
+                        <li><b>Ejemplo:</b> Agua (H₂O), donde el oxígeno y el hidrógeno comparten electrones.</li>
+                        <img src="../Img Quimica/enlaces quimicos/enlace_covalente.jpg" alt="Descripción de la imagen" width="324"
+                    height="120">
+                    </ul>
+
+                    <p><b>Enlaces Metálicos:</b></p>
+                    <ul>
+                        <li><b>Descripción:</b> Se dan entre átomos de metales que comparten sus electrones en una red de núcleos positivos, creando una "nube" de electrones libres que mantiene unidos a los átomos.</li>
+                        <li><b>Ejemplo:</b> Hierro (Fe), cobre (Cu).</li>
+                        <img src="../Img Quimica/enlaces quimicos/enlace_metalico.png" alt="Descripción de la imagen" width="324"
+                    height="120">
+                    </ul>
+
+                    <p><b>Enlaces de Hidrógeno:</b></p>
+                    <ul>
+                        <li><b>Descripción:</b> Un tipo especial de interacción que ocurre cuando un átomo de hidrógeno unido a un átomo muy electronegativo (como oxígeno o nitrógeno) forma un enlace débil con otro átomo electronegativo.</li>
+                        <li><b>Ejemplo:</b> Las moléculas de agua (H₂O) se mantienen juntas por enlaces de hidrógeno.</li>
+                        <img src="../Img Quimica/enlaces quimicos/enlace_hidrogeno.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+
+                    <p><b>Video Recomendado</b></p>
+                        <iframe  src="https://www.youtube.com/embed/9Oljha_Syv8" allowfullscreen></iframe>
+
+                </div>
+
+                <div id="nomenclatura-inorganica" class="content-section">
+                    <h1>Nomenclatura Inorgánica</h1>
+                    <p>La nomenclatura inorgánica es un sistema de reglas para nombrar compuestos químicos que no contienen carbono-hidrógeno. Incluye la nomenclatura de sales, ácidos, bases y óxidos.</p>
+                
+                    <p><b>Compuestos Iónicos:</b></p>
+                    <ul>
+                        <li><b>Sales Binarias:</b> Formadas por un metal y un no metal. Ejemplo: Cloruro de sodio (NaCl).</li>
+                        <li><b>Sales Ternarias:</b> Algunos compuestos covalentes tienen nombres históricos que se utilizan en lugar de sus nombres sistemáticos. Ejemplo: Agua para H₂O.</li>
+                  
+                        <img src="../Img Quimica/nomenclatura_inorgánica/compuestos_ionicos.jpg" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+
+                    <p><b>Compuestos Covalentes:</b></p>
+                    <ul>
+                        <li><b>Prefijos:</b>  Se usan para indicar el número de átomos en el compuesto. Ejemplo: Dióxido de carbono (CO₂).</li>
+                        <li><b>Nombres Comunes:</b> Contienen más de dos elementos, típicamente un metal, oxígeno y un no metal. Ejemplo: Sulfato de cobre (II) (CuSO₄).</li>
+                    
+                        <img src="../Img Quimica/nomenclatura_inorgánica/compuestos_covalentes.png" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+
+                    <p><b>Ácidos:</b></p>
+                    <ul>
+                        <li><b>Ácidos Binarios: </b> Formados por hidrógeno y un no metal. Ejemplo: Ácido clorhídrico (HCl).</li>
+                        <li><b>Ácidos Ternarios (Oxisales)</b>  Contienen oxígeno además del hidrógeno y otro elemento. Ejemplo: Ácido sulfúrico (H₂SO₄).</li>
+                        
+                        <img src="../Img Quimica/nomenclatura_inorgánica/acidos_bases.png" alt="Descripción de la imagen" width="324"
+                        height="120">
+                    </ul>
+
+                    <p><b>Bases:</b></p>
+                   <p>Formadas por un metal y el grupo hidroxilo (OH). Ejemplo: Hidróxido de sodio (NaOH).</p>
+
+                   <p><b>Sales:</b></p>
+                   <p>Compuestos formados por la reacción de un ácido y una base. Ejemplo: Cloruro de potasio (KCl).</p>
+
+                   <img src="../Img Quimica/nomenclatura_inorgánica/sales_cloruro_potasio.jpg" alt="Descripción de la imagen" width="324"
+                   height="120">
+                   <br>
+                   <p><b>Video Recomendado</b></p>
+                   <iframe src="https://www.youtube.com/embed/8gAHveHEJJ8" allowfullscreen></iframe>
+
+                </div>
+
+                <div id="oxianiones" class="content-section">
+                    <h1>Oxianiones</h1>
+                    <p>Los oxianiones son iones que contienen oxígeno junto con otro elemento químico. Ejemplos comunes incluyen el ion sulfato (SO<sub>4</sub><sup>2-</sup>) y el ion nitrato (NO<sub>3</sub><sup>-</sup>).</p>
+               
+                    <img src="../Img Quimica/oxianiones/oxianion.png" alt="Descripción de la imagen" width="324"
+                        height="120">
+
+                    <p><b>Estructura General:</b></p>
+                    <p>Generalmente, los oxianiones tienen una estructura en la que el átomo central está rodeado por átomos de oxígeno en una disposición geométrica que puede ser tetraédrica, trigonal planar, etc. Los oxígenos pueden estar unidos al átomo central por enlaces simples o dobles.</p>
+                    
+                    <br>
+
+                    <p><b>Carga:</b></p>
+                    <p>La carga del oxianión depende del número de oxígenos y del estado de oxidación del átomo central. Por ejemplo, el sulfato (SO₄²⁻) tiene una carga de -2 debido a la diferencia entre el número de electrones y el número de protones en el oxianión.</p>
+                
+                    <br>
+
+                    <p><b>Propiedades Químicas:</b></p>
+                    <p>Los oxianiones a menudo participan en reacciones redox y pueden actuar como agentes oxidantes o reductores dependiendo de la reacción. También tienen un papel importante en muchos procesos biológicos y ambientales.</p>
+
+                    <br>
+
+                    <p><b>Nomenclatura: </b></p>
+                    <p>Los oxianiones suelen ser nombrados de acuerdo con el número de átomos de oxígeno y la carga total del ion. Por ejemplo, el ion sulfito (SO₃²⁻) tiene un átomo menos de oxígeno que el ion sulfato (SO₄²⁻).</p>
+
+                    <br>
+
+                    <p><b>Aplicación: </b></p>
+                    <p>Los oxianiones tienen aplicaciones en diferentes áreas, como en la fabricación de productos químicos, en el tratamiento de aguas residuales, y en la agricultura como fertilizantes.</p>
+               
+                    <br>
+
+                    <p><b>Ejmplos: </b></p>
+                    <ul>
+                        <li><b>Nitrato (NO₃⁻):</b> Tiene una estructura trigonal planar con un átomo de nitrógeno central unido a tres átomos de oxígeno.</li>
+                        <li><b>Sulfato (SO₄²⁻):</b> Tiene una estructura tetraédrica con un átomo de azufre central unido a cuatro átomos de oxígeno.</li>
+                        <li><b>Clorato (ClO₃⁻):</b> Tiene una estructura trigonal plana con un átomo de cloro central unido a tres átomos de oxígeno.</li>
+                    </ul>
+
+                    <p><b>Video Recomendado</b></p>
+                    <iframe src="https://www.youtube.com/embed/gkoy-1VTVhM" allowfullscreen></iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.list-group-item');
+            const sections = document.querySelectorAll('.content-section');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Oculta todas las secciones
+                    sections.forEach(section => section.classList.remove('active'));
+
+                    // Muestra la sección correspondiente
+                    const target = this.getAttribute('data-target');
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+
+            // Muestra la primera sección por defecto
+            if (sections.length > 0) {
+                sections[0].classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>

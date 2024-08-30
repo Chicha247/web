@@ -1,0 +1,42 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #f8f9fa; /* Cambia esto según el color de fondo que desees */
+}
+
+.navbar-brand b {
+    font-size: 24px; /* Tamaño del texto del logo */
+}
+
+.img_nav {
+    margin-right: 10px;
+}
+
+/* Barra lateral */
+.list-group-item.active {
+    background-color: #e9ecef; /* Color de fondo del elemento activo */
+    color: #212529; /* Color del texto del elemento activo */
+    border-color: #e9ecef;
+}
+
+.list-group-item {
+    border: none; /* Sin bordes entre los elementos de la lista */
+}
+
+/* Contenido bloqueado */
+.blocked-content {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.blocked-content p {
+    margin: 0;
+}

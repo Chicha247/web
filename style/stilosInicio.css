@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh;
+    padding: 20px; 
+}
+
+.contenedorTitle {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px; 
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas dentro del contenedor */
+    gap: 100px; /* Espacio entre las tarjetas */
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200%;
+    max-width: 800px; /* Limita el ancho máximo del contenedor */
+    
+}
+.contenedor_general {
+    display: flex;
+    justify-content: center; /* Centra el contenedor de tarjetas */
+    width: 100%;
+    margin-top: 100px;
+}
+.card {
+    width: 55rem;
+}
+
+
+
