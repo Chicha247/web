@@ -22,7 +22,11 @@ body {
     color: #212529; /* Color del texto del elemento activo */
     border-color: #e9ecef;
 }
-
+.btnR{
+    background-color: #e9ecef; /* Color de fondo del elemento activo */
+    color: #212529; /* Color del texto del elemento activo */
+    border: 2px;
+}
 .list-group-item {
     border: none; /* Sin bordes entre los elementos de la lista */
 }

@@ -2,13 +2,8 @@
     font-family: "Arial", sans-serif;
 }
 body {
-    margin: 0px;
-    padding: 0;
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    
+    
     
 }
 
@@ -32,9 +27,7 @@ header {
     color: #ffffff;
     text-decoration: none;
 }
-.main-content{
-    margin: -100;
-}
+
 .containera {
     display: flex;
 }
@@ -100,4 +93,49 @@ h1 {
 
 .bton:hover {
     background-color: #c5c4c4;
+}
+.btp{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    background-color: #141520;
+    border-radius: 8px;
+    
+}
+.btpg{
+    width: 140px;
+    height: 140px;
+}
+
+#symbolab{
+    background: url(../IMG/unnamed.png) 30px 40px/79px no-repeat;
+    text-decoration: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px 10px 10px 30px;
+    color: #ffffff;
+}
+#symbolab:hover{
+    background-color: #2e3047;
+}
+
+#cymath{
+    background: url(../IMG/cymath-removebg-preview.png) 30px 40px/79px no-repeat;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 10px 10px 10px 40px;
+    color: #ffffff;
+}
+#cymath:hover{
+    background-color: #2e3047;
+}
+
+#mathway{
+    background: url(../IMG/mathway.png) 30px 40px/79px no-repeat;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 10px 10px 10px 37px;
+    color: #ffffff;
+}
+#mathway:hover{
+    background-color: #2e3047;
 }
